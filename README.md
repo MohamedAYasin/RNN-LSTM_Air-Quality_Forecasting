@@ -1,4 +1,4 @@
-
+![Image](https://github.com/user-attachments/assets/f6df1659-c103-4e9a-97cd-d758f63bd7aa)
 
 # Beijing Air Quality Forecasting
 
