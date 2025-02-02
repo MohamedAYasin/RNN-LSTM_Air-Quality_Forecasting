@@ -1,6 +1,8 @@
+
+
 # Beijing Air Quality Forecasting
 
-## Overview
+## Introduction
 
 PM2.5 has serious impacts on cardiovascular and respiratory health. As people's attention to physical health increases, the issue of PM2.5 has become increasingly prominent. The goal of this research is to create a prediction model for Beijing's PM2.5 concentrations using the Long Short-Term Memory (LSTM) deep learning algorithm. This paper utilizes PM2.5 measurements from the US Embassy in Beijing and meteorological data from Beijing Capital International Airport from 2010 to 2014. The study forecasts PM2.5 concentrations via the LSTM model by integrating variables such as temperature, pressure, and wind speed. The results of this study validate the feasibility of the LSTM model in predicting PM2.5 and yield relatively good prediction outcomes. It is evident that concentrations are lower in the summer and higher in the winter. However, the prediction results are lower compared to the actual data and are not effective in predicting drastic changes caused by other influencing factors. The results provide information for the creation of more efficient air quality management plans by exposing the connections between PM2.5 and different meteorological variables.
 
@@ -35,7 +37,9 @@ The dataset consists of two files:
 ### Visualizations
 
 
+![Image](https://github.com/user-attachments/assets/8d252ad8-044e-409c-ba9d-1b159232d4ad)
 
+![Image](https://github.com/user-attachments/assets/8d1d6728-0f88-48fe-b68e-716aa0e914f9)
 
 ---
 
@@ -93,15 +97,14 @@ This project successfully applied LSTM models to forecast PM2.5 concentrations i
 
 Regularization techniques are essential for preventing overfitting.
 
-## Future Work
+## Future Work and Recommendations
 
-Incorporate additional features such as weather forecasts and traffic data.
+- Incorporate additional features such as weather.
 
-Experiment with Transformer-based architectures for time-series data.
-
-Deploy the model as a real-time forecasting tool.
+- Experiment with GRU architectures for time-series data.
 
 
+---
 
 ## References
 
